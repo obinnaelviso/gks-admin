@@ -19,7 +19,7 @@
                 @include('partials.alert')
                 @if ($hymns->count() > 0)
                     <div class="table-responsive" id="hymnsTable">
-                        <input type="search" class="form-control mb-2" id="search-hymn">
+                        <input type="search" class="form-control mb-2" id="search-hymn" placeholder="Search for Hymn">
                         <table class="table table-hover">
                             <thead>
                                 <tr>
