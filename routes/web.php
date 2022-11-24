@@ -17,4 +17,8 @@ Route::get('/', function () {
     return redirect()->route('login');
 });
 
+Route::get('/privacy-policy', function () {
+    return view('privacy-policy');
+});
+
 require __DIR__ . '/auth.php';
